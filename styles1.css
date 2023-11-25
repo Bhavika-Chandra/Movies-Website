@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #131720;
+  background-color:  #1f2b45;
   font-family: sans-serif;
 }
 
@@ -13,8 +13,10 @@ h3 {
 
 .topnav {
   overflow: hidden;
-  background-color: #131720;
+  background-color: #111c30;
   padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
 }
 
 .topnav a{
@@ -33,7 +35,7 @@ h3 {
 }
 
 form{
-  background-color: #151f30;
+  background-color: rgb(62, 57, 67);
   width: 300px;
   height: 43px;
   border-radius: 11px;
@@ -66,5 +68,5 @@ input {
   border-radius: 19px;
   padding: 15px;
   text-align: center;
-  background-color: #151f30;
+  background-color: #32425b;
 }
