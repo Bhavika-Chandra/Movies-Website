@@ -7,7 +7,7 @@ const APILINK = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.
   const form = document.getElementById("form");
   const search = document.getElementById("query");
 
-returnMovies(APILINK)
+returnMovies(APILINK);
   function returnMovies(url){
     fetch(url).then(res => res.json())
     .then(function(data){
